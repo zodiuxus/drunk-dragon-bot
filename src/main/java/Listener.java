@@ -61,7 +61,7 @@ public class Listener extends ListenerAdapter {
         if(args[0].equalsIgnoreCase(prefix + "addgame")) {
 
             /*
-            TODO: make this thing look like this, not whatever I have set in here as a shitshow
+            TODO: make this thing look like this, not whatever I have set in here
             i.e "dd!addgame **kwargs:[system, default = 5e] [name] [weekday] [time in CEST]
             *args:[recurrence, default = weekly] [slots, def = 4] [setting, def = null] [duration] [other optional arguments]",
             all of which are processed as strings and stitched together to then be ported to a database,
