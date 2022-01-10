@@ -1,5 +1,6 @@
-#Drunk Dragon Bot
-##A bot for your online TTRPG games
+# Drunk Dragon Bot
+
+## A bot for your online TTRPG games
 Planned features:
 
 - [ ] Game scheduling and notifications (partially implemented)
