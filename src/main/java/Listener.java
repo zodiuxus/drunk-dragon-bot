@@ -72,8 +72,8 @@ public class Listener extends ListenerAdapter {
             if (args.length < 4) {
                 embedBuilder.setTitle("Invalid command usage!");
                 embedBuilder.addField("", "Invalid arguments provided, please use the command in the following manner:", false);
-                embedBuilder.addField("", "dd!addgame [system], [game name (in one word - for now)], [weekday], [time in CEST]", false);
-                embedBuilder.addField("", "Optional arguments (after the first four) are [recurrence, default is weekly], [slots, defaults to 4], [setting, default is standard fantasy]", false);
+                embedBuilder.addField("", "dd!addgame [system] [game name (in one word - for now)] [weekday] [time in CEST]", false);
+                embedBuilder.addField("", "Optional arguments (after the first four) are [recurrence, default is weekly] [slots, defaults to 4] [setting, default is standard fantasy]", false);
                 embedBuilder.addField("", "Do note that if you insert these in an incorrect order, they may show up in the incorrect positions.", false);
                 event.getChannel().sendMessage(embedBuilder.build()).queue();
                 embedBuilder.clear();
@@ -100,7 +100,6 @@ public class Listener extends ListenerAdapter {
                 event.getChannel().sendMessage("Game successfully added!").queue();
             }
         }
-
         //TODO: create a conflict checker (weekday + time if the same weekday)
     }
 }
