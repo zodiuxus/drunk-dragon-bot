@@ -26,7 +26,8 @@ public class DrunkDragonBot {
             "Blackout-Jack",
             "Deep Rock Galactic",
             "with the hearts of nations",
-            "some weird robot ninja game"
+            "some weird robot ninja game",
+			"lead lute in a Halfling band"
     };
 
     public static void main(String[] args) throws LoginException, IOException {
